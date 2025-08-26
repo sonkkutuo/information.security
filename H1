@@ -2,6 +2,29 @@
 
 The article about threat modeling summarizes what threat modeling is, why it’s important and how threat modeling Manifesto can help with having more secure systems when following the Manifesto’s guide. 
 
+Episodes about threat modeling gave brief but at the same time very comprehensive insight on why threat modeling matters, how it can be done in a functional and sustainable way and what questions should be asked to ensure successful threat modeling. Having a model that’s easy to understand helps it to be executed and therefore ensuring more security. 
+
+The threat modeling cheat sheet concludes the most important key points of threat modeling. It summarizes all the factors that should be carefully thought when modeling a threat model. Recognising risks, mitigating them, asking questions, identifying the benefits of a successful threat model, these are all discussed in the article. It gives a good overall look on what threat modeling is, why it’s important and how it can be planned well.
+
+Spy: I found this episode very intriguing. It was very story-like, so it’s a bit difficult to summarize it, but the flow of the story was interesting and even a bit creepy. Spying as a concept is just scary and I could feel the paranoia throughout the story, although there indeed was a very much planned spying executed. 
+
+## Security hygiene
+
+Basics of security hygiene would be for example a password that’s not too easy to guess, having updated software, having valuable data backed up and using multi-factor authentication when possible. Not uploading anything everything, and also being careful with links sended to you are all part of security hygiene. Having some sort of anti-virus and anti-malware softwares are also beneficial.
+
+### Company task
+
+We need protection for customer data, employees credentials, records related to payments and business information and databases. Since we have valuable data, there are bad guys who would like to steal that data for financial benefits. 
+We have to start by identifying the risks. It can be for example stolen credentials or leaked information. In the case of someone using another person's account, multi-factor authentication and limited attempts with login can help. 
+Overall, we’re working on having as much protection as possible. Keeping customers satisfied is very valuable. 
+
+CIA triad: We need to focus on confidentiality, integrity and availability of the data and record that we have. That only the people who are allowed to access certain data, will, no one else. Since confidentiality has to be ensured, we have to have data encrypted and protected from being stolen. Having access control is also crucial. Integrity can be ensured by protecting it by being altered by outside authors. Having backups for business records is also very important. Availability requires updated and secured systems, so that no one can for example block an employee or a customer from using the system.
+
+One of the biggest risks is monetary loss and reputation-related losses. A company should be trusted and needs to have enough professionals and the right tools to have high security. And to maintain the trust of the customers, having secure systems and good reputation is crucial
+
+To mitigate all these risks, encryption, updated software, access controls, MFA, having backups and firewalls are important. Having a good threat model helps with identifying the risks and preventing the bad guys from attacking. And even though attempted attacks are always possible, it is a company’s responsibility to make it unlikely successful. 
+
+Having some reflection on how well the model was executed, did it work, how can we do a better job, what is the level of security currently, are there any risks we haven’t noticed, these questions help to maintain and improve the security. 
 
 
  ![company system diagram] (https://github.com/sonkkutuo/information.security/blob/main/Screenshot%202025-08-26%20111309.png)
@@ -11,5 +34,7 @@ https://darknetdiaries.com/transcript/99/
 https://www.threatmodelingmanifesto.org/
 https://www.youtube.com/playlist?list=PLCVhBqLDKoOOZqKt74QI4pbDUnXSQo0nf
 https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html
+https://www.enisa.europa.eu/topics/cyber-hygiene
+https://terokarvinen.com/information-security/
 
 
